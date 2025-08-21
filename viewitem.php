@@ -22,7 +22,7 @@
         echo "
             <h1>Available Products</h1>
 
-            <table>
+            <table border='1'>
                 <tr>
                     <th>Product Name</th>
                     <th>Price</th>
