@@ -8,7 +8,7 @@
 ?>
 
 <h1>Add Products</h1>
-<form action="viewitem.php" method ="post">
+<form action="additem.php" method ="post">
     Product Name: <input name="Pname" type="text"/>
     <br/><br/>
     Price (Rs.) &nbsp;&nbsp; :<input name="Uprice" type="text" /> 
