@@ -21,7 +21,7 @@
         header("Location: viewitem.php");
     }
     elseif($row['Role'] == "admin"){
-        header("Location: additem.php");
+        header("Location: additem_form.php");
     }
     else{
         header("Location: login.php?error=1");
