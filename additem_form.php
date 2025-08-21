@@ -10,9 +10,10 @@
 <h1>Add Products</h1>
 <form action="viewitem.php" method ="post">
     Product Name: <input name="Pname" type="text"/>
-    <br/>
+    <br/><br/>
     Price (Rs.) &nbsp;&nbsp; :<input name="Uprice" type="text" /> 
+    <br/><br/>
     <input name="btnadditem" type="submit" />
     <input value="Reset" type="reset"/>
-    
 </form>
+
