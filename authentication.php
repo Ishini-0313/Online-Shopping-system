@@ -3,8 +3,9 @@
     include("conn.php");
     mysqli_select_db($conn , "ESHOP");
     extract($_POST);
+    
 
-    $sql = "SELECT * FROM USER WHERE Uname='$username' and Pwd='$password'";
+    $sql = "SELECT * FROM user WHERE Uname='$username' and Pwd='$password'";
     $result = mysqli_query($conn , $sql);
     if(!$result){
         die("Invlid query ".mysqli_error($conn));
